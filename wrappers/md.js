@@ -5,6 +5,7 @@ import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
 import Bio from 'components/Bio'
+import Image from 'components/Image'
 
 import '../css/zenburn.css'
 
@@ -19,7 +20,23 @@ class MarkdownWrapper extends React.Component {
           title={`${post.title} | ${config.blogTitle}`}
         />
         <h1 style={{marginTop: 0}}>{post.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.body }} />
+        <Image 
+          src={post.mainImage}
+          style={{
+            display: "block",
+            margin: "auto",
+            marginBottom: rhythm(2)
+          }}
+        />
+        <div dangerouslySetInnerHTML={{ __html: post.body }} style={{marginBottom: rhythm(2)}} />
+        <Image 
+          src={post.secondImage}
+          style={{
+            display: "block",
+            margin: "auto",
+            marginBottom: rhythm(2)
+          }}
+        />
         <em
           style={{
             display: 'block',
