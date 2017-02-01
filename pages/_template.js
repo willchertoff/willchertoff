@@ -54,17 +54,20 @@ class Template extends React.Component {
       )
     }
     return (
-      <div>
-      <Container
-        style={{
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3/4)}`,
-        }}
-      >
-        {header}
-        {children}
-      </Container>
-      <Footer />
+      <div style={{
+        height: '100%'
+      }}>
+        <Container
+          style={{
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3/4)}`,
+            background: 'white',
+          }}
+        >
+          {header}
+          {children}
+        </Container>
+        <Footer />
       </div>
     )
   }

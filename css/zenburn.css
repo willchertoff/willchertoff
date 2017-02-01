@@ -4,7 +4,9 @@ Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
 based on dark.css by Ivan Sagalaev
 
 */
-
+html, body, #react-mount {
+  height: 100%;
+}
 .markdown pre {
   display: block;
   background: #3F3F3F;
