@@ -4,6 +4,7 @@ import { Container } from 'react-responsive-grid'
 import { prefixLink } from 'gatsby-helpers'
 import { rhythm, scale } from 'utils/typography'
 import { config } from 'config'
+import Footer from '../components/Footer'
 
 class Template extends React.Component {
   render () {
@@ -36,6 +37,7 @@ class Template extends React.Component {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
+            color: '#1ca086'
           }}
         >
           <Link
@@ -52,6 +54,7 @@ class Template extends React.Component {
       )
     }
     return (
+      <div>
       <Container
         style={{
           maxWidth: rhythm(24),
@@ -61,6 +64,8 @@ class Template extends React.Component {
         {header}
         {children}
       </Container>
+      <Footer />
+      </div>
     )
   }
 }
