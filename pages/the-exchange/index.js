@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
 import { rhythm } from 'utils/typography'
 import Image from '../../components/Image'
 import mainPic from './the-exchange-cover.png'
@@ -47,6 +48,17 @@ class Post extends Component {
           }}
         />
         <p>Although the story is told primarily through audio soundbites, characters also send you text, audio, and location messages, and you can accept or decline paths in a choose-your-adventure style. Check out the app on the <a href="#" target="_blank" >app store</a>.</p>
+        <Link
+          to={'/'} 
+          style={{
+            textAlign: 'center',
+            width: '100%',
+            display: 'block',
+            marginBottom: rhythm(2)
+          }}
+        >
+          Back
+        </Link>
       </div>
     )
   }
@@ -55,6 +67,6 @@ class Post extends Component {
 export default Post
 
 exports.data = {
-  title: "The Exchange",
+  title: "The Exchange - IOS App",
   date: "2015-06-01T22:12:03.284Z"
 }

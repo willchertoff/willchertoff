@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
 import { rhythm } from 'utils/typography'
 import Image from '../../components/Image'
 import mainPic from './dream-date-hero.png'
@@ -49,6 +50,17 @@ class Post extends Component {
         />
         <p>Guide users. Don't give them a million options.</p>
         <p>3 screens. Onboarding, Map, Transcript. Subtle but elegant. Modern but Nostalgic. You can find the app <a href="http://dreamdateapp.com" target="_blank">here</a>.</p>
+        <Link
+          to={'/'} 
+          style={{
+            textAlign: 'center',
+            width: '100%',
+            display: 'block',
+            marginBottom: rhythm(2)
+          }}
+        >
+          Back
+        </Link>
       </div>
     )
   }
@@ -57,7 +69,7 @@ class Post extends Component {
 export default Post
 
 exports.data = {
-  title: "Dream Date",
+  title: "Dream Date - Web Application",
   date: "2016-02-13T12:40:32.169Z",
   path: "/dream-date/"
 }

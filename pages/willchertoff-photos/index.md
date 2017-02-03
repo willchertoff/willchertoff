@@ -1,5 +1,5 @@
 ---
-title: willchertoff.photos
+title: Personal Photography Site
 date: "2017-01-17T22:12:03.284Z"
 readNext: "/hcpd/"
 path: "/willchertoff-photos/"
@@ -17,7 +17,7 @@ Enter redesign.
 
 This time I started my development process with a simple question. When looking at a collection of photos, what do I expect?. Or, what feels natural? 
 
-In terms of performance, I optimized my React Image component to load the image into the dom with a trick I learned from 'BLAHAHAAH'
+In terms of performance, I optimized my React Image component to load the image into the dom with the trick below.
 
 ```javascript
 class Image extends Component {
@@ -50,4 +50,6 @@ class Image extends Component {
 }
 ```
 
-Now my single page site was rendering quite quickly, even in the middle of Germany on a farm...
+Now my single page site was rendering quite quickly.
+
+Check it out [here](http://essence.netlify.com)

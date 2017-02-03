@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import moment from 'moment'
 import Helmet from "react-helmet"
 import ReadNext from '../components/ReadNext'
@@ -29,6 +30,16 @@ class MarkdownWrapper extends React.Component {
         >
           Posted {moment(post.date).format('MMMM D, YYYY')}
         </em>
+        <Link
+          to={'/'} 
+          style={{
+            textAlign: 'center',
+            width: '100%',
+            display: 'block'
+          }}
+        >
+          Back
+        </Link>
         <hr
           style={{
             marginBottom: rhythm(2),
