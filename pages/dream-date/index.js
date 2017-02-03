@@ -59,4 +59,5 @@ export default Post
 exports.data = {
   title: "Dream Date",
   date: "2016-02-13T12:40:32.169Z",
+  path: "/dream-date/"
 }

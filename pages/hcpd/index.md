@@ -1,7 +1,6 @@
 ---
 title: Health Care Provider Directory
 date: "2016-12-2"
-readNext: "/dream-date/"
 path: "/hcpd/"
 ---
 
