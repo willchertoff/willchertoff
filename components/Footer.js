@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router'
 import { config } from 'config'
 import { rhythm } from 'utils/typography'
 import { prefixLink } from 'gatsby-helpers'
-import { Link } from 'react-router'
 
 const Footer = () =>
   <div 
@@ -27,7 +27,7 @@ const Footer = () =>
         fontSize: rhythm(1/2),
       }}
     >
-      <Link to="/resume">resume</Link>
+      <Link to="/resume/">resume</Link>
       <a href="mailto:willchertoff@gmail.com" target="_blank">email</a>
       <a href="http://github.com/willchertoff" target="_blank">github</a>
       <a href="http://essence.netlify.com/" target="_blank">photos</a>

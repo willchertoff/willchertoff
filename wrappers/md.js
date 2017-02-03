@@ -20,23 +20,7 @@ class MarkdownWrapper extends React.Component {
           title={`${post.title} | ${config.blogTitle}`}
         />
         <h1 style={{marginTop: 0}}>{post.title}</h1>
-        <Image 
-          src={post.mainImage}
-          style={{
-            display: "block",
-            margin: "auto",
-            marginBottom: rhythm(2)
-          }}
-        />
         <div dangerouslySetInnerHTML={{ __html: post.body }} style={{marginBottom: rhythm(2)}} />
-        <Image 
-          src={post.secondImage}
-          style={{
-            display: "block",
-            margin: "auto",
-            marginBottom: rhythm(2)
-          }}
-        />
         <em
           style={{
             display: 'block',

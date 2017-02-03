@@ -1,0 +1,5 @@
+TO DO
+
+- Get DD images
+- Get Exchange imgages
+- Launch 
