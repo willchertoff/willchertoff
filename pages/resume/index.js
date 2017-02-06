@@ -38,13 +38,13 @@ class Post extends Component {
           <h3>Goat Digital</h3>
           <span style={{display: 'block', fontWeight: 'bold'}}>Full Stack Engineer</span>
           <p style={{display: 'block', fontStyle: 'italic'}}>Portland, Oregon 2016</p>
-          <p>Full Stack Developer for various Wordpress and Drupal sites. Responsibilities included development for custom user registration flow, onboarding, back-end restructuring and sitewide re-skins. Other works inclued signle page application builds using React JS and Redux JS.</p>
+          <p>Full Stack Developer for various Wordpress and Drupal sites. Responsibilities included development for custom user registration flow, onboarding, back-end restructuring and sitewide re-skins. Other works include single page application builds using React JS and Redux JS.</p>
         </div>
         <div>
           <h3>National Psoriasis Foundation</h3>
           <span style={{display: 'block', fontWeight: 'bold'}}>Full Stack Engineer</span>
           <p style={{display: 'block', fontStyle: 'italic'}}>Portland, Oregon 2015 - 2016</p>
-          <p>Full Stack Developer for custom Drupal 7 build. Responsibilities included site maintenance, new feature development and user support. Designed and built two pages which received record breaking traffic.</p>
+          <p>Full Stack Developer for custom Drupal 7 build. Responsibilities included site maintenance, new feature development, and user support. Designed and built two pages which received record breaking traffic.</p>
         </div>
         <div>
           <h3>Oregon Health and Science University</h3>
@@ -56,7 +56,7 @@ class Post extends Component {
           <h3>Black and Veatch</h3>
           <span style={{display: 'block', fontWeight: 'bold'}}>Smart Analytics Engineer</span>
           <p style={{display: 'block', fontStyle: 'italic'}}>Overland Park, Kansas 2014</p>
-          <p>Performed energy modeling, measurement and verification for over 60 combined generation assets. Conducted wind and site predictive analyses, including determination of wind resource and site characteristics. Identified energy savings opportunities and made recommendations to achieve more energy efficient operation. Professionally documented plans and results, presenting findings and recommendations.</p>
+          <p>Performed energy modeling, measurement, and verification for over 60 combined generation assets. Conducted wind and site predictive analyses, including determination of wind resource and site characteristics. Identified energy savings opportunities and made recommendations to achieve more energy efficient operation. Professionally documented plans and results, presenting findings and recommendations.</p>
         </div>     
         <h2>Known Technologies</h2>
         <p><b>Client-Facing</b></p>

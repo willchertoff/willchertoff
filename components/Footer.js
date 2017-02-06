@@ -27,10 +27,10 @@ const Footer = () =>
         fontSize: rhythm(1/2),
       }}
     >
-      <Link to="/resume/">resume</Link>
-      <a href="mailto:willchertoff@gmail.com" target="_blank">email</a>
-      <a href="http://github.com/willchertoff" target="_blank">github</a>
-      <a href="http://essence.netlify.com/" target="_blank">photos</a>
+      <Link to="/resume/">Resume</Link>
+      <a href="mailto:willchertoff@gmail.com" target="_blank">Email</a>
+      <a href="http://github.com/willchertoff" target="_blank">GitHub</a>
+      <a href="http://essence.netlify.com/" target="_blank">Photo</a>
     </div>
   </div>
 

@@ -4,7 +4,7 @@ date: "2016-12-2"
 path: "/hcpd/"
 ---
 
-Web based software containing: a database of physicians and a front end search platform for the physician listings. 
+Web-based software containing: a database of physicians and a front end search platform for the physician listings. 
 
 ### API 
 
@@ -20,11 +20,11 @@ The API was to sit independently from all individual front end instances. In ord
 
 ### Font-End
 
-The front end application spec required: the application to be embeded on any site, stand alone on it's own and be able to access different lists of physicians.
+The front end application spec required: the application to be embedded on any site, stand alone on its own and be able to access different lists of physicians.
 
-The physicians list was to be able to be filtered by a variety of filters, all customized by the client. For this, I knew that I had to include the site customization options inside the API above. The front-end app would then load them in upon startup.
+The physician's list was to be able to be filtered by a variety of filters, all customized by the client. For this, I knew that I had to include the site customization options inside the API above. The front-end app would then load them in upon startup.
 
-My first challenge was to integrate asynchronus API calls with the Redux framework. To anyone familiar with Redux, this was my reducer allowing me to make an API call to recieve the list of physicians for a given site:
+My first challenge was to integrate asynchronous API calls with the Redux framework. To anyone familiar with Redux, this was my reducer allowing me to make an API call to receive the list of physicians for a given site:
 
 ```javascript
 export default function doctors(state = initialState, action) {
